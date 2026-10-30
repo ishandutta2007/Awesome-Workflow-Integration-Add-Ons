@@ -4,11 +4,13 @@
 
 # ⚡ Awesome Workflow Integration Add-Ons 🔌
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tracked Tools](https://img.shields.io/badge/Tools_Tracked-30+-blue.svg)](#table-of-contents)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-how-to-contribute)
 [![Last Updated](https://img.shields.io/badge/Updated-October_2026-blueviolet.svg)](#)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **Curated directory of SaaS workflow platforms, native marketplace extensions, iPaaS solutions, and open-source automation infrastructure.**
 
@@ -27,6 +29,8 @@
   - [🤖 AI-Native Workflow & Agentic Orchestration](#-ai-native-workflow--agentic-orchestration)
   - [📋 Project & Work Management Alternatives](#-project--work-management-alternatives)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#star-history)
 - [⚖️ Disclaimer & Security Considerations](#️-disclaimer--security-considerations)
 
 ---
@@ -114,6 +118,24 @@ Contributions to expand this repository are warmly encouraged!
 2. 🌿 **Create** a descriptive branch (`git checkout -b feat/add-connector-tool`).
 3. ✏️ **Add** entries following the table format (include official links, pricing/license, and badges).
 4. 🚀 **Submit** a Pull Request with a summary of the added platform or library.
+
+---
+
+## 💖 Support & Community
+
+Thank you so much for visiting and supporting **Awesome Workflow Integration Add-Ons**! If you find this curated collection helpful for your projects, architecture planning, or engineering workflows, please consider:
+
+- ⭐ **Starring** the repository on GitHub to help others discover it.
+- 🍴 **Forking** and contributing new tools, integrations, and corrections.
+- 📢 **Sharing** this repository with your network, team, and tech communities.
+- ☕ **Buying a coffee** to fuel ongoing maintenance and development via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Workflow-Integration-Add-Ons&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Workflow-Integration-Add-Ons&type=date&legend=top-left)
 
 ---
 
