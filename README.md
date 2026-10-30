@@ -1,245 +1,130 @@
-# Awesome-Workflow-Integration-Add-Ons
+<div align="center">
 
-## Top Workflow Integration Add-Ons Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Workflow Integration Add-Ons Banner" width="100%" />
 
+# ⚡ Awesome Workflow Integration Add-Ons 🔌
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Tracked Tools](https://img.shields.io/badge/Tools_Tracked-30+-blue.svg)](#table-of-contents)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-how-to-contribute)
+[![Last Updated](https://img.shields.io/badge/Updated-October_2026-blueviolet.svg)](#)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**Curated directory of SaaS workflow platforms, native marketplace extensions, iPaaS solutions, and open-source automation infrastructure.**
 
-*Focused on Platform Extensions, Automation Connectors & Self-Hosted Integration Infrastructure*  
+*Bridging work management apps—Trello, Jira, Slack, Miro, ClickUp, Monday, Asana—with automation, connectors, and AI agents.*
 
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Workflow Integration Add-Ons**. These tools enable teams to extend their existing work management platforms—Trello, Jira, Slack, Miro, ClickUp, Monday, Asana—with automation, connectors, and custom functionality, bridging the gaps between tools without replacing them.
-
-
-
-**Examples** include Trello Power-Ups, Zapier, Make, Workato, Slack Integrations, Jira Plugins, Miro Add-ons, ClickUp Integrations, Monday Apps, and Asana Apps (the category leaders).
-
-
-
-**Open-source emphasis**: Workflow Integration Add-Ons is a domain where open-source tooling is **exceptionally strong at the automation layer but fragmented at the platform-extension layer**. The strongest active projects are **Activepieces** (MIT, 500+ integrations, self-hostable Zapier/Make alternative with AI agents and MCP support) and **n8n** (Sustainable Use License, visual canvas with 1500+ integrations). For Trello specifically, **Kan** provides an open-source kanban board with direct Trello import, while **WeKan** and **Vikunja** offer mature self-hosted alternatives with Trello importers . For Jira alternatives, **Windshift** bundles service management, knowledge base, and test management into a single Go binary, and **Plane** provides an AI-native project management platform with 47,800+ GitHub stars . The critical gap: **no open-source project replicates the platform-native Power-Ups/Apps ecosystem** of Trello, Jira, or Slack—those require deep platform API integration that commercial vendors and platform owners control.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Trello Power-Ups](https://trello.com/power-ups)**  
-
-  Trello's native add-on ecosystem with 150+ Power-Ups for calendar views, automation (Butler), time tracking, and third-party integrations; deep platform API access and in-card functionality.
-
-
-
-- **[Zapier](https://zapier.com/)**  
-
-  Market-leading no-code automation platform with 9,000+ app integrations; triggers and actions-based workflows for connecting SaaS tools without engineering effort.
-
-
-
-- **[Make](https://www.make.com/)**  
-
-  Visual automation platform (formerly Integromat) with 3,000+ pre-built apps; features a visual Scenario Builder, If-Else and Merge modules, and scenario run replay.
-
-
-
-- **[Workato](https://www.workato.com/)**  
-
-  Enterprise automation platform with AI-powered recipe building, low-code connectors, and comprehensive security compliance (PCI-DSS, ISO 27001, SOC 2, HIPAA).
-
-
-
-- **[Slack Integrations](https://slack.com/apps)**  
-
-  Slack's app directory with thousands of integrations for notifications, workflow automation (Workflow Builder), and third-party service connectivity.
-
-
-
-- **[Jira Plugins (Atlassian Marketplace)](https://marketplace.atlassian.com/)**  
-
-  Atlassian's marketplace with thousands of plugins for Jira, Confluence, and other Atlassian products; covers time tracking, reporting, automation, and third-party integrations.
-
-
-
-- **[Miro Add-ons (Marketplace)](https://marketplace.miro.com/)**  
-
-  Miro's app marketplace for whiteboard extensions, including integrations with Jira, Asana, Slack, and AI-powered diagramming tools.
-
-
-
-- **[ClickUp Integrations](https://clickup.com/integrations)**  
-
-  ClickUp's native integration library and app directory for connecting project management workflows with Slack, GitHub, Google Drive, and other tools.
-
-
-
-- **[Monday Apps](https://monday.com/marketplace)**  
-
-  monday.com's app marketplace for extending boards with automations, dashboards, and third-party integrations.
-
-
-
-- **[Asana Apps](https://asana.com/apps)**  
-
-  Asana's integration directory for connecting projects with Slack, Jira, GitHub, Zoom, and other work tools.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Workflow Automation Platforms (Zapier/Make/Workato Alternatives)
-
-
-
-- **[Activepieces](https://github.com/activepieces/activepieces)**  
-
-  The strongest open-source **Zapier/Make alternative** available (MIT, 9,646+ GitHub stars) . Self-hostable with **500+ pre-built pieces** (Google Sheets, Slack, OpenAI, HTTP, webhooks), visual flow builder with branches/loops/conditional logic, **AI Agents and Copilot** built into the editor, human-in-the-loop approval steps, custom code steps (JavaScript/TypeScript), and **MCP server support** for AI tool integrations . Deployable on Railway with one click or Docker. **The best starting point for teams wanting a privacy-first automation platform** without per-task fees.
-
-
-
-- **[n8n](https://github.com/n8n-io/n8n)**  
-
-  Leading open-source workflow automation platform (Sustainable Use License, 47,810+ GitHub stars); combines a visual canvas with custom code (JavaScript/Python); 1500+ integrations and 9,000+ workflow templates; AI-native capabilities for building multi-step agents with model flexibility (OpenAI, Anthropic, Google, open-source models).
-
-
-
-- **[AutoKitteh](https://github.com/autokitteh/autokitteh)**  
-
-  Developer-focused **code-based workflow automation platform** (Python, Starlark) built on Temporal for durable execution . Positioned as an alternative to no/low-code platforms (Zapier, Workato, Make, n8n) with unlimited flexibility for long-running, reliable workflows. Self-hostable with built-in integrations for Slack, GitHub, Twilio, ChatGPT, Gemini, Gmail, and more.
-
-
-
-- **[dliy-io](https://hub.docker.com/r/deathlegion/dliy-io)**  
-
-  Open-source, self-hostable workflow automation platform (TypeScript/Node.js) with visual node editor (React Flow), **115+ pre-built integrations**, AI via GLM-4.6, and custom JavaScript/Python code nodes . Docker-deployable.
-
-
-
-- **[FlowForge](https://github.com/DeveloperSarim/FlowForge)**  
-
-  Open-source, self-hosted n8n/Zapier alternative for **PHP shared hosting** (AGPL-3.0); 1,690 apps, AI workflow builder, AI voice agents, and MCP support. Runs on cPanel/Hostinger with one cron job . **Best for teams without Node.js infrastructure** who need automation on shared hosting.
-
-
-
-### Project Management Platform Alternatives (Trello/Jira/Monday/ClickUp)
-
-
-
-- **[Kan](https://github.com/kanbn/kan)**  
-
-  Open-source Trello alternative (Next.js, tRPC, Tailwind) with **direct Trello board import**, granular permissions, comments, activity log, and Docker deployment . **The closest open-source equivalent to Trello's board experience** with a clean migration path—but lacks Power-Ups and native mobile apps.
-
-
-
-- **[WeKan](https://github.com/wekan/wekan)**  
-
-  The most mature open-source Trello alternative (MIT, 21k+ GitHub stars, active since 2014); real-time boards, swimlanes, WIP limits, webhooks, and **importers for Trello, Jira, and Asana** . Requires MongoDB and at least 1GB RAM. **The best overall for Trello-style boards** with production-grade stability.
-
-
-
-- **[Vikunja](https://github.com/go-vikunja/vikunja)**  
-
-  Open-source task manager (AGPL-3.0, 5.6k+ GitHub stars) with **four views** (List, Gantt, Table, Kanban), reminders, repeating tasks, and **Trello/Todoist importers** . Single binary or Docker. **Best when you want more than a board**—to-dos, Gantt, and reminders in one tool.
-
-
-
-- **[Plane](https://github.com/makeplane/plane)**  
-
-  AI-native project management platform (AGPL-3.0, 47,800+ GitHub stars) positioned as a Jira/Linear/Monday/ClickUp alternative; features work items, cycles (sprints), modules, pages, and five layout views (List, Board, Spreadsheet, Gantt, Calendar) . **The strongest open-source Jira alternative** with active development and a modern UI.
-
-
-
-- **[Windshift](https://github.com/windshiftapp/core)**  
-
-  Open-source, self-hosted work management platform (AGPL v3, single Go binary) positioned as a **Jira alternative** . Bundles projects, epics, sprints, boards, custom workflows, **service management with SLAs**, knowledge base, test management, time tracking, and asset/CMDB register. JQL-style query language and Jira importer. **The most complete all-in-one replacement for Jira + Confluence + service desk** in a single binary.
-
-
-
-- **[Paca](https://github.com/Paca-AI/paca)**  
-
-  AI-native, free, open-source alternative to Jira, Trello, ClickUp, and Monday (Apache-2.0); built for Scrum teams where humans and AI agents collaborate; features sprints, tasks, documents, and an **MCP server** for AI agent integration . Self-hosted with Docker/Kubernetes.
-
-
-
-- **[Leantime](https://github.com/leantime/leantime)**  
-
-  Open-source project management system (PHP/MySQL) combining design thinking, lean methodology, and Agile practices; features kanban boards, Gantt charts, goal tracking, time tracking, and **Slack/Mattermost/Discord integrations** . **For teams wanting an integrated project management + collaboration platform.**
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Kanboard** — Minimal open-source kanban board (MIT, 9.9k+ GitHub stars) with automatic actions, plugins, and LDAP/OAuth2 support; in maintenance mode but stable for simple boards .
-
-- **ByteChef** — Open-source low-code API integration and workflow automation platform (Java, 201 GitHub stars) ; an alternative for Java-centric teams.
-
-- **Actionsflow** — Free Zapier/IFTTT alternative for developers using GitHub Actions; **CAUTION**: no commits in 90+ days per OpenSSF scorecard, effectively stale .
-
-
-
-**Frameworks for building custom systems**: For **Zapier-like automation**, Activepieces (MIT, 500+ integrations, AI agents) or n8n (visual canvas, 1500+ integrations) are the strongest options. For **Trello replacement with import**, Kan or WeKan. For **Jira replacement**, Plane or Windshift. For **AI-agent integration**, Paca (MCP server) or Activepieces (MCP support). No open-source project replicates the **platform-native Power-Ups/Apps ecosystem**—those require deep integration with proprietary platform APIs that only the platform owners control.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Workflow integration platforms handling business data and credentials must comply with applicable privacy regulations and organizational security policies; API keys and OAuth tokens require secure storage and rotation.
-
-- **Open-source workflow integration is strongest at the automation layer**—Activepieces and n8n provide production-grade Zapier alternatives, and Kan/WeKan/Plane provide platform replacements . However, **no open-source project replicates the platform-native add-on ecosystems** (Trello Power-Ups, Jira Plugins, Slack Apps) that require deep proprietary API integration. Organizations requiring native platform extensions should evaluate commercial apps or build custom integrations.
-
-- Verify license terms for commercial use; Activepieces uses MIT , n8n uses the Sustainable Use License (not OSI-approved, with restrictions on resale), and Kan/WeKan use MIT .
-
-
+</div>
 
 ---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⚡ Workflow Automation & iPaaS Platforms](#-workflow-automation--ipaas-platforms)
+  - [🤖 AI-Native Workflow & Agentic Orchestration](#-ai-native-workflow--agentic-orchestration)
+  - [📋 Project & Work Management Alternatives](#-project--work-management-alternatives)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & Security Considerations](#️-disclaimer--security-considerations)
 
-**Made for integration engineers, automation developers, IT operations teams, and work management platform administrators.**  
+---
 
-Let's make workflow integration more open, but with clear eyes about the platform-native add-on gap that commercial ecosystems still fill.
+## 📊 Sector Overview & Market Dynamics
+
+The global **Integration Platform as a Service (iPaaS) and workflow automation market** is estimated at **$13.5 Billion in 2026** and is projected to surpass **$38 Billion by 2031**, expanding at a compound annual growth rate (CAGR) exceeding **23%**. 
+
+Market dynamics demonstrate a **moderately fragmented, dual-tier structure**:
+- **Enterprise iPaaS & System Consolidation**: Dominated by high-capitalization incumbents and cloud hyperscalers (Salesforce/Slack/MuleSoft, Atlassian, Workato) capturing deep ERP and IT governance workflows.
+- **Mid-Market & Long-Tail Extensions**: A fiercely competitive and fragmented ecosystem composed of visual no-code orchestrators (Zapier, Make), specialized marketplace ecosystems (Trello Power-Ups, Miro Marketplace), and a fast-growing cohort of **open-source, self-hosted alternatives** (n8n, Activepieces, Windmill) driving local data sovereignty and AI agent orchestration.
+
+---
+
+## 🏢 SaaS/Hosted Platforms
+
+The table below compiles leading hosted automation engines and native marketplace platforms, ranked descending by estimated company size (market capitalization / enterprise valuation / ARR).
+
+| Platform | Category / Primary Capability | Starting Tier Pricing | Free Tier Limit / Trial Specifics | Company Size / Valuation / Revenue |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Slack Integrations](https://slack.com/apps)** | Team Chat & App Hub | **$7.25 / user / mo** *(Pro tier billed annually)* | **Free forever**: 90-day message history, 1:1 Huddles, and up to **10 app integrations** | **~$27.7 Billion** *(Acquired by Salesforce; Salesforce Market Cap ~$280B)* |
+| **[Jira Plugins (Atlassian Marketplace)](https://marketplace.atlassian.com/)** | Issue Tracking & DevOps Apps | **$7.75 / user / mo** *(Standard tier billed annually)* | **Free forever**: Up to **10 users**, 2 GB file storage, unlimited project boards | **~$48.0 Billion** *(Atlassian NASDAQ: TEAM Market Cap)* |
+| **[Asana Apps](https://asana.com/apps)** | Enterprise Work & Portfolio Tracking | **$10.99 / user / mo** *(Starter tier billed annually)* | **Free forever**: Up to **10 teammates**, unlimited tasks, projects, and 100+ app integrations | **~$3.2 Billion** *(Asana NYSE: ASAN Market Cap)* |
+| **[Monday Apps](https://monday.com/marketplace)** | Work OS & Custom Workflows | **$9.00 / seat / mo** *(Basic tier, min 3 seats billed annually = $27/mo)* | **Free forever**: Up to **2 seats**, 3 boards, 200+ templates, 500 MB storage | **~$12.5 Billion** *(monday.com NASDAQ: MNDY Market Cap)* |
+| **[Trello Power-Ups](https://trello.com/power-ups)** | Visual Kanban & Board Extensions | **$5.00 / user / mo** *(Standard tier billed annually)* | **Free forever**: Up to **10 workspace boards**, unlimited cards, and **unlimited Power-Ups** per board | **~$3.0+ Billion** *(Part of Atlassian ecosystem; acquired for $425M in 2017)* |
+| **[Zapier](https://zapier.com/)** | Multi-App No-Code iPaaS | **$19.99 / mo** *(Starter tier, 750 tasks/mo billed annually)* | **Free forever**: **100 tasks/month**, single-step Zaps, 15-minute update frequency | **~$5.0 Billion** *(Valuation; ~$250M+ ARR)* |
+| **[Workato](https://www.workato.com/)** | Enterprise Automation & Integration | **~$10,000 / year base** *(Base workspace + per-recipe pack model)* | **14-day free trial**: Access to community connectors and recipe sandbox environment | **~$5.7 Billion** *(Series E valuation; $150M+ ARR)* |
+| **[ClickUp Integrations](https://clickup.com/integrations)** | All-in-One Collaboration & Tasks | **$7.00 / user / mo** *(Unlimited tier billed annually)* | **Free forever**: **100 MB storage**, unlimited tasks, and up to **100 native automation executions/month** | **~$4.0 Billion** *(Valuation)* |
+| **[Miro Add-ons (Marketplace)](https://marketplace.miro.com/)** | Visual Collaboration & Canvas Extensions | **$8.00 / member / mo** *(Starter tier billed annually)* | **Free forever**: **3 editable boards**, premade templates, and core marketplace integrations | **~$17.5 Billion** *(Valuation)* |
+| **[Make](https://www.make.com/)** | Visual Workflow Orchestration | **$9.00 / mo** *(Core tier, 10,000 operations/mo billed annually)* | **Free forever**: **1,000 operations/month**, 15-minute minimum interval, 2 active scenarios | **~$1.0+ Billion** *(Acquired by Celonis; Celonis Valuation ~$13.0B)* |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Explore open-source workflow automation engines, self-hostable iPaaS alternatives, and project management platforms with extensive integration ecosystems. Ranked descending by GitHub star count.
+
+### ⚡ Workflow Automation & iPaaS Platforms
+
+| Project | Stars | License | Core Capabilities & Architecture |
+| :--- | :---: | :---: | :--- |
+| **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Sustainable Use License | Fair-code visual workflow automation platform with 1,500+ connectors, AI agent workflows, and native JS/Python scripting. |
+| **[Node-RED](https://github.com/node-red/node-red)** | [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | Apache-2.0 | Low-code event-driven programming for wiring together hardware devices, APIs, and online services via a browser editor. |
+| **[Activepieces](https://github.com/activepieces/activepieces)** | [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | MIT | Self-hosted Zapier/Make alternative featuring 500+ pre-built pieces, Copilot workflow builder, and Model Context Protocol (MCP) support. |
+| **[Windmill](https://github.com/windmill-labs/windmill)** | [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) | AGPL-3.0 | Extremely fast developer platform for turning Python, TypeScript, Go, Bash scripts and SQL into endpoints, UIs, and workflows. |
+| **[Huginn](https://github.com/huginn/huginn)** | [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers) | MIT | Hackable open-source system for building personal agents that monitor the web, scrape data, and trigger automated HTTP/email actions. |
+| **[Kestra](https://github.com/kestra-io/kestra)** | [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | Apache-2.0 | Declarative, event-driven orchestrator managing workflows across business APIs, data pipelines, and microservices in code or UI. |
+| **[AutoKitteh](https://github.com/autokitteh/autokitteh)** | [![GitHub stars](https://img.shields.io/github/stars/autokitteh/autokitteh?style=social&color=white)](https://github.com/autokitteh/autokitteh/stargazers) | Apache-2.0 | Durable code-first workflow engine powered by Temporal for executing long-running Python/Starlark integration logic reliably. |
+| **[FlowForge](https://github.com/DeveloperSarim/FlowForge)** | [![GitHub stars](https://img.shields.io/github/stars/DeveloperSarim/FlowForge?style=social&color=white)](https://github.com/DeveloperSarim/FlowForge/stargazers) | AGPL-3.0 | Self-hosted n8n/Zapier alternative optimized for PHP shared hosting environments with 1,690+ app integrations and cron scheduling. |
+| **[ByteChef](https://github.com/bytechef/bytechef)** | [![GitHub stars](https://img.shields.io/github/stars/bytechef/bytechef?style=social&color=white)](https://github.com/bytechef/bytechef/stargazers) | Apache-2.0 | Open-source low-code API integration engine designed for Java enterprise stacks and embedded iPaaS applications. |
+
+---
+
+### 🤖 AI-Native Workflow & Agentic Orchestration
+
+| Project | Stars | License | Core Capabilities & Architecture |
+| :--- | :---: | :---: | :--- |
+| **[Flowise](https://github.com/flowiseai/flowise)** | [![GitHub stars](https://img.shields.io/github/stars/flowiseai/flowise?style=social&color=white)](https://github.com/flowiseai/flowise/stargazers) | MIT | Drag-and-drop UI to build customized LLM flows, multi-agent orchestrations, and connect AI models with enterprise APIs. |
+| **[Paca](https://github.com/Paca-AI/paca)** | [![GitHub stars](https://img.shields.io/github/stars/Paca-AI/paca?style=social&color=white)](https://github.com/Paca-AI/paca/stargazers) | Apache-2.0 | AI-native team collaboration hub with integrated MCP server, enabling AI agents and human developers to collaborate on sprints. |
+
+---
+
+### 📋 Project & Work Management Alternatives
+
+| Project | Stars | License | Core Capabilities & Architecture |
+| :--- | :---: | :---: | :--- |
+| **[Plane](https://github.com/makeplane/plane)** | [![GitHub stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers) | AGPL-3.0 | Modern open-source Jira/Linear replacement featuring sprints, kanban, gantt, documents, and webhooks. |
+| **[NocoDB](https://github.com/nocodb/nocodb)** | [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | AGPL-3.0 | Open-source Airtable alternative that turns any MySQL, PostgreSQL, or SQLite database into an interactive smart spreadsheet with webhook integrations. |
+| **[Appsmith](https://github.com/appsmithorg/appsmith)** | [![GitHub stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers) | Apache-2.0 | Low-code framework to build internal tools, dashboards, and admin panels connected directly to business databases and REST/GraphQL APIs. |
+| **[ToolJet](https://github.com/tooljet/tooljet)** | [![GitHub stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social&color=white)](https://github.com/ToolJet/ToolJet/stargazers) | AGPL-3.0 | Extensible low-code platform for building customized workflow applications and internal business extensions. |
+| **[WeKan](https://github.com/wekan/wekan)** | [![GitHub stars](https://img.shields.io/github/stars/wekan/wekan?style=social&color=white)](https://github.com/wekan/wekan/stargazers) | MIT | Mature, battle-tested Trello alternative with direct import capabilities for Trello, Jira, and Asana boards. |
+| **[Leantime](https://github.com/leantime/leantime)** | [![GitHub stars](https://img.shields.io/github/stars/leantime/leantime?style=social&color=white)](https://github.com/leantime/leantime/stargazers) | AGPL-3.0 | Strategic project management platform combining lean methodology, kanban boards, and Slack/Mattermost/Discord integration. |
+| **[Kanboard](https://github.com/kanboard/kanboard)** | [![GitHub stars](https://img.shields.io/github/stars/kanboard/kanboard?style=social&color=white)](https://github.com/kanboard/kanboard/stargazers) | MIT | Minimalist, self-hosted kanban board with automated background actions, plugin system, and LDAP integration. |
+| **[Vikunja](https://github.com/go-vikunja/vikunja)** | [![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers) | AGPL-3.0 | Multi-view task management tool (Kanban, List, Gantt, Table) with Trello/Todoist migration and webhooks. |
+| **[Kan](https://github.com/kanbn/kan)** | [![GitHub stars](https://img.shields.io/github/stars/kanbn/kan?style=social&color=white)](https://github.com/kanbn/kan/stargazers) | MIT | Next.js and tRPC-powered Kanban board featuring one-click Trello JSON board import. |
+| **[Windshift](https://github.com/windshiftapp/core)** | [![GitHub stars](https://img.shields.io/github/stars/windshiftapp/core?style=social&color=white)](https://github.com/windshiftapp/core/stargazers) | AGPL-3.0 | Single Go binary Jira/Confluence alternative with service management SLAs, JQL query language, and Jira importer. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to expand this repository are warmly encouraged!
+
+1. 🍴 **Fork** the repository.
+2. 🌿 **Create** a descriptive branch (`git checkout -b feat/add-connector-tool`).
+3. ✏️ **Add** entries following the table format (include official links, pricing/license, and badges).
+4. 🚀 **Submit** a Pull Request with a summary of the added platform or library.
+
+---
+
+## ⚖️ Disclaimer & Security Considerations
+
+- 🔒 **Data Privacy & Credentials**: Workflow automation tools handle sensitive API keys, OAuth tokens, and confidential company payload data. Always follow least-privilege principles and verify secret encryption at rest.
+- 📦 **Licensing Compliance**: Verify commercial rights prior to self-hosting. MIT and Apache-2.0 permit free commercial deployment; AGPL-3.0 and Sustainable Use Licenses may impose restrictions on hosted redistribution.
+- 🧩 **Native Ecosystem Limitations**: While open-source automation platforms (n8n, Activepieces) excel at backend API orchestration, deep in-client extensions (such as Trello Power-Ups and Atlassian Forge UI modules) still rely on proprietary host platform APIs.
+
+---
+
+<div align="center">
+  <sub>Maintained for integration architects, DevOps teams, and automation engineers worldwide.</sub>
+</div>
