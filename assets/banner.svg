@@ -135,7 +135,7 @@
 
     <!-- Tagline highlights -->
     <text x="0" y="98" text-anchor="middle" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="0.8">
-      🔌 iPaaS &bull; 🧩 Platform Plugins &bull; 🤖 Multi-Step AI Automation &bull; 🏢 Enterprise Connectors
+      🔌 iPaaS &#x2022; 🧩 Platform Plugins &#x2022; 🤖 Multi-Step AI Automation &#x2022; 🏢 Enterprise Connectors
     </text>
   </g>
 </svg>
