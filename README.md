@@ -66,7 +66,7 @@ The table below compiles leading hosted automation engines and native marketplac
 
 ## 💻 Open-Source GitHub Projects
 
-Explore open-source workflow automation engines, self-hostable iPaaS alternatives, and project management platforms with extensive integration ecosystems. Ranked descending by GitHub Stars_Count.
+Explore open-source workflow automation engines, self-hostable iPaaS alternatives, and project management platforms with extensive integration ecosystems. Ranked descending by GitHub_Stars_Count.
 
 ### ⚡ Workflow Automation & iPaaS Platforms
 
